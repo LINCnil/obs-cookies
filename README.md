@@ -1,22 +1,22 @@
 
 [FR](https://github.com/LINCnil/obs-cookies)-[EN](https://github.com/LINCnil/obs-cookies/tree/en)
-# Présentation (FR)
+# Présentation (EN)
 
-**Le LINC a analysé les pratiques des 1000 sites web à plus forte audience en France sur la base du top Alexa, pour mieux comprendre les pratiques actuelles en matière de traceurs.**
+**LINC has analyzed the practices of the 1000 websites with the highest audience in France based on the Alexa, to better understand current practices in terms of tracers.**
 
-Ce dépôt contient l'ensemble des données publiées de l'[article disponible sur le site du LINC](https://linc.cnil.fr/obs-cookies/) présentant ces résultats.
-
-L'outil [CookieViz](https://linc.cnil.fr/fr/cookieviz-2-des-fonctionnalites-pour-suivre-les-pratiques-cachees-du-web) est utilisé pour charger la liste des données depuis le top Alexa et pour exporter ces données dans le répertoire "data" de cet article. La fonction d'import de liste est disponible dans les options du navigateurs Cookieviz tandis que la fonction d'export est disponible sur l'interface de visualisation Cookieviz.
+This repository contains all the published data of the [article available on the LINC website](https://linc.cnil.fr/obs-cookies/en) presenting these results.
 
 
-## Données personnelles
+[CookieViz](https://linc.cnil.fr/cookieviz-2-new-features-observe-hidden-web-practices) is used to load the list of data from the top Alexa and to export this data to the "data" directory of this article. The list import function is available in the options of the Cookieviz browsers while the export function is available on the Cookieviz visualization interface.
 
-Cette étude repose sur la collecte d'URL et de données exclusivement relatives à des personnes morales. Cependant, dans certains cas, ces informations sont susceptibles de  comprendre des données à caractère personnel. Ce traitement est mis en œuvre par la [CNIL](http://www.cnil.fr/). Il est fondé sur l’exercice de l’autorité publique et a pour finalité la production d’études sur les usages des technologies. Les données collectées sont relatives aux noms de domaines des sites web publiquement accessibles via Internet. Ces données seront conservées pendant une durée maximale de 5 ans. Pour en savoir plus sur les modalités de gestion de vos données ou exercer vos droits, vous pouvez [consulter cette page](https://www.cnil.fr/fr/donnees-personnelles).
+## Personal data
 
-Si vous utilisez le code source fourni pour collecter des données vous-même, vous êtes également susceptible de collecter et de traiter des données à caractère personnel. Dans ce cas, vous devez vous assurer du complet respect de vos obligations prévues par le RGPD, notamment en termes d'information des personnes concernées et de respect de leurs autres droits définis par le règlement européen.
+This study is based on the collection of URL and data that is exclusively related to legal persons. However, in some instance this data might contain personal data. This processing is carried out by the [CNIL](http://www.cnil.fr/). It is based on the exercise of an official authority and its purpose is to produce studies on the use of technology. The data collected is related to website domain names that are freely accessible over the Internet. This data will be stored for a maximum duration of 5 years.  For more information on the way the data is processed or to exercise your rights, you can [consult this page](https://www.cnil.fr/fr/donnees-personnelles).  
 
-Toute réutilisation de données publiées qui auraient la nature de données personnelles suppose préalablement, de la part du réutilisateur, la vérification du complet respect de ses obligations prévues par le RGPD, notamment en termes d'information des personnes concernées et de respect de leurs autres droits définis par le règlement européen.
+If you use the source code provided to collect data yourself, you might be collecting and processing personal data. In that case, you should ensure that you fully comply with any obligation stemming from the GDPR, in particular regarding the information of the data subject and the respect of their rights as laid out in the European regulation.
 
-## Licence
+Any reuse of the published data, if said data were personal data, implies that the reuser should beforehand check that he fully complies with any obligation stemming from the GDPR, in particular regarding the information of the data subject and the respect of their rights  as laid out in the European regulation.
 
-La licence utilisée est la [licence ouverte 2.0](./LICENSE.md). Certaines parties du projet sont soumis à une licence legacy BSD 2-clause compatible avec celle-ci.
+## License
+
+The license used is the [open license 2.0](./LICENSE.md). Some parts of the project are subjected to a legacy BSD 2-clause license, compatible with the open license 2.0.

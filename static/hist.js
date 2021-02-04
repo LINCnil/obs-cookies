@@ -39,7 +39,7 @@ d3.json("data/distribution.json", function (error, data) {
     let yScale = y.domain([0, d3.max(data, function (d) { return d.value })])
     // for the width of rect
     let xBand = d3.scaleBand().domain(d3.range(-1, ordinals.length)).range([0, width])
-    
+
     const range_min = 7;
     const range_max = 1;
 
@@ -92,7 +92,7 @@ d3.json("data/distribution.json", function (error, data) {
             div.transition()
                 .duration(200)
                 .style("opacity", .9);
-            div.html(d.value + " sites tiers lisent des cookies depuis "+ d.site )
+            div.html(d.value + " third parties read cookies from "+ d.site )
                 .style("left", (d3.event.pageX + 10) + "px")
                 .style("top", (d3.event.pageY - 50) + "px");
         })

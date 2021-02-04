@@ -185,17 +185,17 @@ function drawTreemap(hierarchy) {
           .duration(200)
           .style("opacity", .9);
     div_tooltip.html(function(){
-      var label = "Le domaine " + d.data.name + " est présent sur "+ d.data.weight +"% des sites analysés. <br><br> Il a déposé et lu les cookies suivants : "+d.data.cookie+".";
+      var label = d.data.name + " is present on "+ d.data.weight +"% of the analyzed websites. <br><br> It has store and read the following cookies : "+d.data.cookie+".";
       
       if (d.data.ads == 1)
-        label += "<br><br> Sa politique de confidentialité indique que ces cookies sont utilisés pour des finalités publicitaires.";
+        label += "<br><br> Its privacy policy indicates that these cookies are used for advertising purposes.";
       else if (d.data.ads == 0)
-        label += "<br><br> Sa politique de confidentialité n'a pas été étudiée.";
+        label += "<br><br> Its privacy policy has not been analyzed.";
       else if (d.data.ads == -1)
-        label += "<br><br> Sa politique de confidentialité n'indique pas de finalité publicitaire.";
+        label += "<br><br> Its privacy policy doesn't indicate advertising purposes.";
 
       if (d.data.privacy)
-        label += "<br><br> Cliquer sur cette zone pour afficher sa politique de confidentialité.";
+        label += "<br><br> Click on this area to view its privacy policy.";
 
       return label;
     })

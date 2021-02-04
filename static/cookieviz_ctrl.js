@@ -106,8 +106,8 @@ function load_graph(nodes, links, zoom, force) {
                 .duration(300)
                 .style("opacity", .8);
             tooltip.html(d.cookie ? 
-                "Le site " + d.target.id +" depose " + d.cookie + " cookies sur le site "+ d.source.id : 
-                "Le site " + d.target.id +" ne depose pas de cookies sur le site "+ d.source.id)
+                d.target.id +" stores " + d.cookie + " cookies on "+ d.source.id : 
+                d.target.id +" don't store cookies on "+ d.source.id)
                 .style("left", (d3.event.pageX) + "px")
                 .style("top", (d3.event.pageY + 10) + "px");
         })
