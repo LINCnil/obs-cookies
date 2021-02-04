@@ -1,0 +1,1 @@
+{"nodes":[{"id":"scarabresearch.com","visited":0},{"id":"fr.shein.com","visited":1},{"id":"www.backmarket.fr","visited":1}],"links":[{"source":"fr.shein.com","target":"scarabresearch.com","cookie":1},{"source":"www.backmarket.fr","target":"scarabresearch.com","cookie":1}]}

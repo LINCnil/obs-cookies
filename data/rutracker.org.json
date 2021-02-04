@@ -1,0 +1,1 @@
+{"nodes":[{"id":"rutracker.org","visited":1,"icon":"icons/127.ico"},{"id":"yadro.ru","visited":0},{"id":"yandex.ru","visited":1,"icon":"icons/80.ico"}],"links":[{"source":"rutracker.org","target":"yadro.ru","cookie":1},{"source":"rutracker.org","target":"yandex.ru","cookie":9}]}

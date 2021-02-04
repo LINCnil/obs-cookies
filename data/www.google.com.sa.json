@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.google.com.sa","visited":1},{"id":"doubleclick.net","visited":0,"icon":"icons/69.ico"},{"id":"google.com","visited":0,"icon":"icons/0.ico"}],"links":[{"source":"www.google.com.sa","target":"doubleclick.net","cookie":3},{"source":"www.google.com.sa","target":"google.com","cookie":2}]}

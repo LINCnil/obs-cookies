@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.credit-agricole.fr","visited":1},{"id":"google.com","visited":0,"icon":"icons/0.ico"},{"id":"xiti.com","visited":0,"icon":"icons/89.ico"}],"links":[{"source":"www.credit-agricole.fr","target":"google.com","cookie":2},{"source":"www.credit-agricole.fr","target":"xiti.com","cookie":4}]}

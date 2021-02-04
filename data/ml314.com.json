@@ -1,0 +1,1 @@
+{"nodes":[{"id":"ml314.com","visited":0},{"id":"edition.cnn.com","visited":1},{"id":"www.letudiant.fr","visited":1}],"links":[{"source":"edition.cnn.com","target":"ml314.com","cookie":3},{"source":"www.letudiant.fr","target":"ml314.com","cookie":1}]}

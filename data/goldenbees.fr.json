@@ -1,0 +1,1 @@
+{"nodes":[{"id":"goldenbees.fr","visited":0,"icon":"icons/249.png"},{"id":"www.cadremploi.fr","visited":1},{"id":"www.cerfrance.fr","visited":1}],"links":[{"source":"www.cadremploi.fr","target":"goldenbees.fr","cookie":2},{"source":"www.cerfrance.fr","target":"goldenbees.fr","cookie":2}]}

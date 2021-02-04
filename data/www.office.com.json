@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.office.com","visited":1},{"id":"bing.com","visited":0,"icon":"icons/11.ico"},{"id":"microsoft.com","visited":0,"icon":"icons/14.ico"}],"links":[{"source":"www.office.com","target":"bing.com","cookie":9},{"source":"www.office.com","target":"microsoft.com","cookie":7}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.labanquepostale.fr","visited":1},{"id":"xiti.com","visited":0,"icon":"icons/89.ico"},{"id":"youtube.com","visited":0,"icon":"icons/3.ico"}],"links":[{"source":"www.labanquepostale.fr","target":"xiti.com","cookie":4},{"source":"www.labanquepostale.fr","target":"youtube.com","cookie":4}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"effectivemeasure.net","visited":0},{"id":"www.bbc.com","visited":1},{"id":"www.kooora.com","visited":1}],"links":[{"source":"www.bbc.com","target":"effectivemeasure.net","cookie":5},{"source":"www.kooora.com","target":"effectivemeasure.net","cookie":2}]}

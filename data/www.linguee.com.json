@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.linguee.com","visited":1},{"id":"amazon-adsystem.com","visited":0},{"id":"doubleclick.net","visited":0,"icon":"icons/69.ico"}],"links":[{"source":"www.linguee.com","target":"amazon-adsystem.com","cookie":2},{"source":"www.linguee.com","target":"doubleclick.net","cookie":3}]}

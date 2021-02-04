@@ -1,0 +1,1 @@
+{"nodes":[{"id":"queue-it.net","visited":0},{"id":"www.conforama.fr","visited":1},{"id":"www.intermarche.com","visited":1}],"links":[{"source":"www.conforama.fr","target":"queue-it.net","cookie":1},{"source":"www.intermarche.com","target":"queue-it.net","cookie":1}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"apple.com","visited":0,"icon":"icons/37.ico"},{"id":"www.franceinter.fr","visited":1}],"links":[{"source":"www.franceinter.fr","target":"apple.com","cookie":2}]}

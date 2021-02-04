@@ -1,0 +1,1 @@
+{"nodes":[{"id":"linksynergy.com","visited":0},{"id":"www.hellobank.fr","visited":1},{"id":"www.kobo.com","visited":1},{"id":"www.spartoo.com","visited":1}],"links":[{"source":"www.hellobank.fr","target":"linksynergy.com","cookie":2},{"source":"www.kobo.com","target":"linksynergy.com","cookie":2},{"source":"www.spartoo.com","target":"linksynergy.com","cookie":2}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"fr.jobrapido.com","visited":1},{"id":"doubleclick.net","visited":0,"icon":"icons/69.ico"},{"id":"google.com","visited":0,"icon":"icons/0.ico"}],"links":[{"source":"fr.jobrapido.com","target":"doubleclick.net","cookie":2},{"source":"fr.jobrapido.com","target":"google.com","cookie":2}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"nuggad.net","visited":0},{"id":"chefsimon.com","visited":1,"icon":"icons/103.ico"},{"id":"www.slate.fr","visited":1}],"links":[{"source":"chefsimon.com","target":"nuggad.net","cookie":1},{"source":"www.slate.fr","target":"nuggad.net","cookie":1}]}

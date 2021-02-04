@@ -1,0 +1,1 @@
+{"nodes":[{"id":"cdn-net.com","visited":0},{"id":"www.ryanair.com","visited":1}],"links":[{"source":"www.ryanair.com","target":"cdn-net.com","cookie":1}]}

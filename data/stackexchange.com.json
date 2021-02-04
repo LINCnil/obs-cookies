@@ -1,0 +1,1 @@
+{"nodes":[{"id":"stackexchange.com","visited":1,"icon":"icons/117.ico"},{"id":"facebook.com","visited":0,"icon":"icons/7.png"},{"id":"imgur.com","visited":1,"icon":"icons/40.ico"}],"links":[{"source":"stackexchange.com","target":"facebook.com","cookie":1},{"source":"stackexchange.com","target":"imgur.com","cookie":6}]}

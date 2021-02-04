@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.edf-oa.fr","visited":1},{"id":"commander1.com","visited":0},{"id":"google.com","visited":0,"icon":"icons/0.ico"}],"links":[{"source":"www.edf-oa.fr","target":"commander1.com","cookie":2},{"source":"www.edf-oa.fr","target":"google.com","cookie":2}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.telerama.fr","visited":1},{"id":"iubenda.com","visited":0,"icon":"icons/87.ico"},{"id":"xiti.com","visited":0,"icon":"icons/89.ico"}],"links":[{"source":"www.telerama.fr","target":"iubenda.com","cookie":1},{"source":"www.telerama.fr","target":"xiti.com","cookie":4}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"app.link","visited":0,"icon":"icons/234.ico"},{"id":"medium.com","visited":1,"icon":"icons/79.ico"},{"id":"www.thetrainline.com","visited":1}],"links":[{"source":"medium.com","target":"app.link","cookie":1},{"source":"www.thetrainline.com","target":"app.link","cookie":1}]}

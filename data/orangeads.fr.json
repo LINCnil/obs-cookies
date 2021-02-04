@@ -1,0 +1,1 @@
+{"nodes":[{"id":"orangeads.fr","visited":0},{"id":"fr.mappy.com","visited":1},{"id":"www.orange.fr","visited":1},{"id":"www.viamichelin.fr","visited":1}],"links":[{"source":"fr.mappy.com","target":"orangeads.fr","cookie":2},{"source":"www.orange.fr","target":"orangeads.fr","cookie":2},{"source":"www.viamichelin.fr","target":"orangeads.fr","cookie":2}]}

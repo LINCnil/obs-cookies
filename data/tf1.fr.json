@@ -1,0 +1,1 @@
+{"nodes":[{"id":"tf1.fr","visited":0},{"id":"www.lci.fr","visited":1}],"links":[{"source":"www.lci.fr","target":"tf1.fr","cookie":10}]}

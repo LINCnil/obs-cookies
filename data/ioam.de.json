@@ -1,0 +1,1 @@
+{"nodes":[{"id":"ioam.de","visited":0},{"id":"www.radio.fr","visited":1},{"id":"www.transfermarkt.de","visited":1}],"links":[{"source":"www.radio.fr","target":"ioam.de","cookie":1},{"source":"www.transfermarkt.de","target":"ioam.de","cookie":1}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.skype.com","visited":1},{"id":"live.com","visited":0},{"id":"microsoft.com","visited":0,"icon":"icons/14.ico"}],"links":[{"source":"www.skype.com","target":"live.com","cookie":3},{"source":"www.skype.com","target":"microsoft.com","cookie":4}]}

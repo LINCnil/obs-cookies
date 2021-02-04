@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.paybox.com","visited":1},{"id":"doubleclick.net","visited":0,"icon":"icons/69.ico"},{"id":"google.com","visited":0,"icon":"icons/0.ico"}],"links":[{"source":"www.paybox.com","target":"doubleclick.net","cookie":3},{"source":"www.paybox.com","target":"google.com","cookie":2}]}

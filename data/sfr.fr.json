@@ -1,0 +1,1 @@
+{"nodes":[{"id":"sfr.fr","visited":0,"icon":"icons/8.ico"},{"id":"www.opex360.com","visited":1},{"id":"www.red-by-sfr.fr","visited":1}],"links":[{"source":"www.opex360.com","target":"sfr.fr","cookie":18},{"source":"www.red-by-sfr.fr","target":"sfr.fr","cookie":20}]}

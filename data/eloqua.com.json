@@ -1,0 +1,1 @@
+{"nodes":[{"id":"eloqua.com","visited":0},{"id":"www.engie.fr","visited":1},{"id":"www.zendesk.com","visited":1}],"links":[{"source":"www.engie.fr","target":"eloqua.com","cookie":2},{"source":"www.zendesk.com","target":"eloqua.com","cookie":3}]}

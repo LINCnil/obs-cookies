@@ -1,0 +1,1 @@
+{"nodes":[{"id":"nxtck.com","visited":0},{"id":"www.em-lyon.com","visited":1},{"id":"www.hellobank.fr","visited":1},{"id":"www.spartoo.com","visited":1}],"links":[{"source":"www.em-lyon.com","target":"nxtck.com","cookie":1},{"source":"www.hellobank.fr","target":"nxtck.com","cookie":3},{"source":"www.spartoo.com","target":"nxtck.com","cookie":3}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"unice.fr","visited":1,"icon":"icons/186.ico"},{"id":"univ-cotedazur.fr","visited":1},{"id":"vimeo.com","visited":1,"icon":"icons/38.ico"}],"links":[{"source":"unice.fr","target":"univ-cotedazur.fr","cookie":2},{"source":"unice.fr","target":"vimeo.com","cookie":10}]}

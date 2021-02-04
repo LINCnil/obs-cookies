@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.canalplus.com","visited":1},{"id":"canalplus.pro","visited":0},{"id":"nr-data.net","visited":0},{"id":"tiqcdn.com","visited":0}],"links":[{"source":"www.canalplus.com","target":"canalplus.pro","cookie":1},{"source":"www.canalplus.com","target":"nr-data.net","cookie":1},{"source":"www.canalplus.com","target":"tiqcdn.com","cookie":1}]}

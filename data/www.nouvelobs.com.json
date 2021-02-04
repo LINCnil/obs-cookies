@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.nouvelobs.com","visited":1},{"id":"google.com","visited":0,"icon":"icons/0.ico"},{"id":"iubenda.com","visited":0,"icon":"icons/87.ico"}],"links":[{"source":"www.nouvelobs.com","target":"google.com","cookie":2},{"source":"www.nouvelobs.com","target":"iubenda.com","cookie":1}]}

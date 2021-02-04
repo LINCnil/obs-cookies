@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.fdj.fr","visited":1},{"id":"google.com","visited":0,"icon":"icons/0.ico"},{"id":"youtube.com","visited":0,"icon":"icons/3.ico"}],"links":[{"source":"www.fdj.fr","target":"google.com","cookie":2},{"source":"www.fdj.fr","target":"youtube.com","cookie":4}]}

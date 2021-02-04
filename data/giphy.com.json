@@ -1,0 +1,1 @@
+{"nodes":[{"id":"giphy.com","visited":0,"icon":"icons/248.png"},{"id":"baginya.org","visited":1,"icon":"icons/74.png"},{"id":"forum.gsmhosting.com","visited":1}],"links":[{"source":"baginya.org","target":"giphy.com","cookie":4},{"source":"forum.gsmhosting.com","target":"giphy.com","cookie":3}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"adscale.de","visited":0},{"id":"www.samsung.com","visited":1},{"id":"www.yvelines.fr","visited":1}],"links":[{"source":"www.samsung.com","target":"adscale.de","cookie":1},{"source":"www.yvelines.fr","target":"adscale.de","cookie":2}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"01net.com","visited":0,"icon":"icons/41.ico"},{"id":"www.liberation.fr","visited":1},{"id":"www.zone-turf.fr","visited":1}],"links":[{"source":"www.liberation.fr","target":"01net.com","cookie":8},{"source":"www.zone-turf.fr","target":"01net.com","cookie":8}]}

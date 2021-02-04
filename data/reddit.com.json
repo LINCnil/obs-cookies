@@ -1,0 +1,1 @@
+{"nodes":[{"id":"reddit.com","visited":0,"icon":"icons/13.ico"},{"id":"www.iherb.com","visited":1},{"id":"www.patreon.com","visited":1}],"links":[{"source":"www.iherb.com","target":"reddit.com","cookie":6},{"source":"www.patreon.com","target":"reddit.com","cookie":7}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"marketingplatform.google.com","visited":1},{"id":"doubleclick.net","visited":0,"icon":"icons/69.ico"},{"id":"google.fr","visited":0,"icon":"icons/1.ico"}],"links":[{"source":"marketingplatform.google.com","target":"doubleclick.net","cookie":3},{"source":"marketingplatform.google.com","target":"google.fr","cookie":2}]}

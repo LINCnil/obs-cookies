@@ -1,0 +1,1 @@
+{"nodes":[{"id":"outlook.live.com","visited":1},{"id":"microsoft.com","visited":0,"icon":"icons/14.ico"},{"id":"office365.com","visited":0}],"links":[{"source":"outlook.live.com","target":"microsoft.com","cookie":2},{"source":"outlook.live.com","target":"office365.com","cookie":1}]}

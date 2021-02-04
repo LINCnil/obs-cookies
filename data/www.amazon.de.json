@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.amazon.de","visited":1},{"id":"amazon-adsystem.com","visited":0},{"id":"amazon.com","visited":0,"icon":"icons/21.ico"}],"links":[{"source":"www.amazon.de","target":"amazon-adsystem.com","cookie":2},{"source":"www.amazon.de","target":"amazon.com","cookie":8}]}

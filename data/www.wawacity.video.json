@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.wawacity.video","visited":1},{"id":"google.com","visited":0,"icon":"icons/0.ico"},{"id":"rtmark.net","visited":0},{"id":"toglooman.com","visited":0}],"links":[{"source":"www.wawacity.video","target":"google.com","cookie":2},{"source":"www.wawacity.video","target":"rtmark.net","cookie":1},{"source":"www.wawacity.video","target":"toglooman.com","cookie":5}]}

@@ -1,0 +1,288 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link rel="stylesheet" type="text/css" href="static/base3.css">
+    <script src="static/d3.v4.min.js"></script>
+    <script src="static/d3-legend.min.js"></script>
+    <script src="static/d3-scale-chromatic.v1.min.js"></script>
+
+    <script src="static/d3-weighted-voronoi.js"></script>
+    <script src="static/d3-voronoi-map.js"></script>
+    <script src="static/d3-voronoi-treemap.js"></script>
+
+    <title>Explorer les pratiques cachées du Web avec CookieViz </title>
+    <meta charset="utf-8"><!-- html5 version of http-equiv="Content-Type"... -->
+    <meta name="description"
+        content="Cet article analyse les pratiques cachées du Web sur les 1000 sites du web les plus utilisés en France  au moyen de CookieViz.">
+    <meta name="keywords" content="CookieViz, Cookies, CNIL, traceurs">
+    <link rel="author" href="https://linc.cnil.fr/" />
+    <link rel="stylesheet" type="text/css" href="static/cookieviz.css">
+    <link rel="stylesheet" type="text/css" href="static/hist.css">
+    <link rel="stylesheet" type="text/css" href="static/voronoi.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_container">
+            <a class="header_link" href="https://linc.cnil.fr/">
+                <img class="header_back_button" typeof="foaf:Image" src="static/back.svg" alt="Go Back">
+            </a>
+            <a class="header_link" href="https://linc.cnil.fr">
+                <img typeof="foaf:Image" style="object-fit:contain;"
+                    src="https://linc.cnil.fr/sites/default/files/styles/default/public/thumbnails/image/linc_lab_blanc-site-web-2.png?itok=fgENwmXw">
+            </a>
+        </div>
+    </div>
+
+    <div class="line">
+        <div class="bloc B2 M4 S9">
+            <h1> Observer les pratiques <span> cachées du web</span>
+                <h1>
+        </div>
+        <div class="bloc B1 M1 S1"> </div>
+    </div>
+
+    <div class="line">
+        <div class="bloc B3 M3 S9">
+            <h2>Les pages Web peuvent intégrer de nombreux éléments invisibles aux utilisateurs et qui pourtant
+                collectent leurs données. Ces pratiques permettent à certains tiers de tracer les internautes pour
+                comprendre leurs comportements en ligne passés et influencer leurs choix futurs. Nous analysons
+                périodiquement les 1000 sites du web les plus utilisés en France afin de révéler ces pratiques et de
+                suivre leur évolutions.</h2>
+        </div>
+    </div>
+
+
+    <div class="line">
+
+        <div class="bloc B2 M9 S9">
+            <h2> Avec qui discute mon navigateur ?</h2>
+        </div>
+        <div class="bloc B3 M3 S9">
+
+            Pour afficher une page web, un navigateur communique avec le service distant correspondant au nom de domaine
+            indiqué dans sa barre d'adresse. Cette adresse correspond au domaine principal, c'est le domaine dont
+            l'internaute souhaite consulter le contenu. Par exemple, cnil.fr correspond au domaine principal du site de
+            la <a href="https://www.cnil.fr">CNIL</a>. Cependant, une grande part des échanges de données réalisés par
+            le navigateur lors du chargement de
+            cette page peut s'effectuer avec d'autres acteurs, les tierces parties, afin de fournir des fonctionnalités
+            aux utilisateurs et/ou collecter leurs données personnelles (statistiques d’usages, données de navigation,
+            messagerie instantanée, etc.).
+        </div>
+    </div>
+
+    <div class="line">
+        <div class="bloc B2 M9 S9">
+            <h2> A quoi servent les cookies ?</h2>
+
+        </div>
+        <div class="bloc B3 M3 S9">
+            Les <a href="https://linc.cnil.fr/fr/une-petite-histoire-du-cookie">cookies</a> sont des informations
+            inscrites dans le navigateur et transmises à chaque communication avec le domaine qui les a stockés dans le
+            navigateur. Ces informations peuvent permettre de suivre les internautes lors de leur navigation sur le Web
+            par l’intermédiaire d’identifiants uniques. Lorsqu’une communication est associée à un ou plusieurs
+            cookie(s), il est alors possible d'identifier le terminal de l'individu à l'origine de cette communication
+            et de lier entre elles les différentes communications d’un internaute sur ce terminal. Certaines techniques
+            permettent par ailleurs de lier entre eux les différents terminaux (ordinateur, tablette, smartphone) ou
+            navigateurs d’un même internaute pour reconstituer un historique global de sa navigation (suivi sur
+            plusieurs terminaux ou « cross-device »).
+            <br><br>
+            C’est par ces mécanismes de traçage que les régies publicitaires collectent les données de navigation des
+            internautes afin de construire des profils publicitaires. Par exemple, les mots clefs recherchés par les
+            internautes peuvent permettre de mieux comprendre leur centre d'intérêt, et par extension conduire à un
+            achat à court terme. Ils sont alors conservés par ces acteurs pour améliorer leur algorithme de publicité
+            ciblée.
+        </div>
+    </div>
+
+    <div class="line">
+        <div class="bloc B2 M9 S9">
+            <h2>Pourquoi cela nous intéresse ?</h2>
+        </div>
+        <div class="bloc B3 M3 S9">
+            La CNIL a abrogé en 2019 sa recommandation « relative aux cookies et aux autres traceurs » de 2013 et a
+            publié des lignes directrices pour préciser le cadre juridique applicable. A la suite d’une concertation
+            avec le secteur de la publicité numérique et la société civile, d’une part, et après une consultation
+            publique, d’autre part, la CNIL a publié, le 1er octobre 2020, le résultat de ses travaux sur les « cookies
+            et autres traceurs ». Les lignes directrices, abrogeant la recommandation de 2013, et la recommandation de
+            la CNIL visent à accompagner les professionnels vers une mise en conformité des cookies (ou des technologies
+            analogues) auxquels ils ont recours sur leurs sites ou applications mobiles.
+        </div>
+    </div>
+
+    <div class="line">
+        <div class="bloc B2 M9 S9">
+            <h2> Méthodologie</h2>
+
+        </div>
+        <div class="bloc B3 M3 S9">
+
+            Nous analysons pour cette étude les communications qui ont lieu entre un navigateur « neutre », c’est-à-dire
+            ne réalisant aucune opération de filtrage ou de blocage des communications avec les sites visités et les
+            différents serveurs appelés lors d'une première visite sur les 1000 sites français les plus utilisés
+
+            <div class="texttooltip">selon
+                le classement établi par la société <a target="blank"
+                    href="https://www.alexa.com/topsites/countries/FR">Alexa</a>
+                <span class="texttooltiptext"> Étude réalisée sur la base des résultats Alexa du 20 janvier 2021. <br>
+                    <br> Nous envisageons pour la suite de ces études d’autres sources de données relatives à la
+                    fréquentation de sites pour affiner ces résultats. </span>
+            </div>
+            , sans interagir avec les pages
+            (c'est-à-dire sans aucun clic, ni scroll, ni mouvement de souris).
+            <br><br>
+            Nous utilisons pour cela le logiciel <a
+                href="https://linc.cnil.fr/fr/cookieviz-une-dataviz-en-temps-reel-du-tracking-de-votre-navigation">CookieViz</a>
+            dont le <a href="https://github.com/LINCnil/CookieViz">code source est librement disponible sur github</a>.
+            <br><br>
+            Cette analyse du 20 janvier 2020 ne préjuge pas de la conformité ou la non-conformité des sites aux exigences de la
+            règlementation telles que rappelées dans les lignes directrices et illustrées au sein de la nouvelle
+            recommandation relative aux cookies et aux autres traceurs. Elle permet néanmoins de mieux comprendre les
+            pratiques actuelles et de qualifier la prédominance des acteurs sur celles-ci.
+            <br><br>
+            Sur ces 1000 sites les plus visités, 889 sites ont été accessibles durant l’analyse effectuée le 20 janvier
+            2020.
+        </div>
+    </div>
+
+    <div class="line">
+        <div class="bloc B2 M3 S9">
+
+            <h1>Les résultats</h1>
+        </div>
+    </div>
+
+    <div class="line" style="align-items:flex-start;"><br></div>
+
+    <div class="line" style="align-items:flex-start;">
+        <div class="bloc B3 M3 S9">
+            <div id="cookieviz" style="max-width: 500px;margin: auto;"> </div>
+            <script src="static/cookieviz_ctrl.js"></script>
+        </div>
+        <div class="bloc B3 M0 S0">
+            <h2>Une majorité des sites dépose des cookies tiers à la première visite.</h2>
+            Cette visualisation représente les échanges d'informations à travers la lecture et l'écriture de cookies qui ont eu lieu au cours de la première visite d'un site : 
+
+            <ul>
+                <li> les <span style="background-color:#1f77b4">disques bleus</span> représentent les domaines
+                    principaux, c'est-à-dire les adresses ayant été visités par le navigateur,</li>
+                <li> les <span style="background-color:#ff7f0e">disques oranges</span> sont les domaines tiers avec
+                    lesquels le navigateur a communiqué durant cette visite,</li>
+                <li> les <span style="background-color:red">liens rouges</span> entre ces domaines représentent les
+                    lectures et écritures de cookies qui se sont opérées depuis le domaine visité vers un domaines
+                    tiers.</li>
+            </ul>
+
+            <span>Vous pouvez zoomer sur cette représentation et obtenir les détail de ces lectures et écritures en
+                passant votre souris sur les domaines et sur les liens.</span>
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="line" style="align-items:flex-start;">
+        <div class="bloc B2
+M9 S9">
+            Celle-ci représente l'<a onclick='loadGlobal();'> ensemble des cookies ayant été lu et déposés </a> durant
+            le parcours de l'ensemble des sites.
+            Les zones rouges formées autours des domaines indiquent une lecture et écritures de cookies particulièrement
+            intense vers ou depuis des tiers.
+
+            <br><br>Vous pouvez également obtenir des détails sur les domaines visitées depuis la liste suivante ou en
+            <a onclick="openVisited();">
+                sélectionner un au hasard</a> : <select id="visited_choice">
+                <option selected="selected" value="data/global.json">Liste des domaines visités</option>
+            </select>.
+
+            <br><br>
+            Vous pouvez également des détails sur les domaines tiers qui ont déposé des cookies lors de cette visite sur
+            la liste suivante ou en <a onclick="openThird();">
+                sélectionner un au hasard</a> : <select id="third_choice">
+                <option selected="selected" value="data/global.json">Liste des domaines tiers déposant des cookies
+                </option>
+            </select>. <br>
+            </label><span>
+        </div>
+    </div>
+
+    <div class="line" style="align-items:flex-start;"><br></div>
+
+    <div class="line" style="align-items:flex-start;">
+        <div class="bloc B2
+    M9 S9">
+            <h2>Jusqu'à 79 tiers peuvent accéder à vos informations de navigation au chargement d'une page Web.</h2>
+            Chaque cookie écrit et lu par un domaine tiers peut permettre d'initier un mécanisme d'identification de
+            votre navigateur ainsi qu'un suivi de votre navigation depuis et hors du site que vous visitez. <br> <br>
+
+            Cet histogramme représente le nombre tiers ayant lu et écrit des cookies depuis les sites disposant de cookies à la premières visite.
+            Il est divisé en trois zones distincts : <br>
+            <ul>
+                <li> la <span style="background-color:#fb8761">zone orange</span> regroupe 20% des sites dont la
+                    présence de tiers écrivant ou lisant des cookies est la plus importante, entre 7 et 79 tiers,</li>
+                <li> la <span style="background-color:#b5367a">zone violette</span> regroupe la majorité des sites (60%)
+                    comprenant entre 1 à 6 de domaines tiers déposant des cookies sur ceux-ci,</li>
+                <li> la queue de l'histogramme représente les 175 sites (20%) qui n'ont déposé aucun cookie depuis des sites tiers lors de la première visite.
+            </ul>
+
+            <span>Vous pouvez zoomer sur cette représentation et passer votre souris sur chacun des sites afin d'obtenir des détails sur le nombre de tiers ayant écrit et lus des cookies à la première visite. 
+            </span>
+            <br><br>
+
+        </div>
+        <div class="bloc B2 M3 S9">
+            <div id="hist"> </div>
+            <script src="static/hist.js"></script>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="line" style="align-items:flex-start;"><br></div>
+
+    <div class="line" style="align-items:flex-start;">
+        <div class="bloc B3 M3 S9">
+            <div id="treemap" style="max-width: 500px;margin: auto;"> </div>
+            <script src="static/voronoi.js"></script>
+        </div>
+        <div class="bloc B3 M0 S0">
+            <h2> Les régies publicitaires sont les principaux pourvoyeurs de cookies. </h2>
+            Nous avons regroupé chaque tiers suivant leur présence sur les sites analysés et conservé ceux ayant une présence (déterminée comme supérieure à 1% des sites). 
+            <br><br>
+
+            Cette carte représente ainsi en proportion la couverture de ces tiers parmi les sites visités, ainsi que leur finalité affichée suivant deux zones :
+            <ul>
+                <li> la <span style="background-color:#fb8761">zone orange</span> regroupe l'ensemble des sites ayant déclaré  sur leur politique de confidentialité une finalité publicitaire sur les cookies déposés lors de l’analyse, cette finalité publicitaire pouvant être combinée avec d’autres finalités,</li>
+                <li> la <span style="background-color:#b5367a">zone violette</span> regroupe l'ensemble des sites n’ayant pas déclaré de finalité publicitaire  (mais d’autres finalités comme statistiques, AB testing, etc.) sur les cookies déposés lors de l’analyse.</li>
+            </ul>
+
+            <br><br>
+            <span>Vous pouvez passer votre souris sur chacune de ces zones pour obtenir plus de détails sur les cookies déposés ainsi que leur finalité déclarée. Un clic sur l'une de ces zones permet d'accéder à la politique de confidentialité ayant permis de catégoriser ces finalités.</span>
+        </div>
+    </div>
+
+    <div class="line" style="align-items:flex-start;">
+        <div class="bloc B2
+    M9 S9">
+            <br>
+            Cette analyse permet de mieux réaliser l'ampleur du traçage publicitaire auquel l'utilisateur est soumis. Si les cookies sont utilisées pour de multiples finalités, la finalité de ciblage publicitaire est présente pour une grande majorité des cookies déposés.
+        </div>
+    </div>
+
+    <div class="line" style="align-items:flex-start;">
+        <div class="bloc B2 M9
+    S9">
+            <h5><a target="blank" href="https://github.com/LINCnil">Retrouver l'intégralité des
+                    données sources et le code de cette page sur le Github de la CNIL</a></h5>
+
+        </div>
+    </div>
+</body>
+
+</html>

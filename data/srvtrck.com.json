@@ -1,0 +1,1 @@
+{"nodes":[{"id":"srvtrck.com","visited":0},{"id":"www.commentcamarche.net","visited":1},{"id":"www.linternaute.com","visited":1}],"links":[{"source":"www.commentcamarche.net","target":"srvtrck.com","cookie":1},{"source":"www.linternaute.com","target":"srvtrck.com","cookie":1}]}

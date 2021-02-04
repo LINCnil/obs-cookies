@@ -1,0 +1,1 @@
+{"nodes":[{"id":"appsflyer.com","visited":0,"icon":"icons/203.ico"},{"id":"www.photobox.fr","visited":1},{"id":"www.sephora.fr","visited":1}],"links":[{"source":"www.photobox.fr","target":"appsflyer.com","cookie":1},{"source":"www.sephora.fr","target":"appsflyer.com","cookie":1}]}

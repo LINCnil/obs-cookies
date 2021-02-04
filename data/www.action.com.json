@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.action.com","visited":1},{"id":"nr-data.net","visited":0},{"id":"youtube.com","visited":0,"icon":"icons/3.ico"}],"links":[{"source":"www.action.com","target":"nr-data.net","cookie":1},{"source":"www.action.com","target":"youtube.com","cookie":3}]}

@@ -1,0 +1,1 @@
+{"nodes":[{"id":"filimo.com","visited":0,"icon":"icons/31.gif"},{"id":"parsfootball.com","visited":1},{"id":"www.aparat.com","visited":1},{"id":"www.rokna.net","visited":1}],"links":[{"source":"parsfootball.com","target":"filimo.com","cookie":10},{"source":"www.aparat.com","target":"filimo.com","cookie":1},{"source":"www.rokna.net","target":"filimo.com","cookie":8}]}

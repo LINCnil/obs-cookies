@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.just-eat.fr","visited":1},{"id":"google.com","visited":0,"icon":"icons/0.ico"},{"id":"tiqcdn.com","visited":0}],"links":[{"source":"www.just-eat.fr","target":"google.com","cookie":2},{"source":"www.just-eat.fr","target":"tiqcdn.com","cookie":1}]}

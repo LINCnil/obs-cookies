@@ -1,0 +1,1 @@
+{"nodes":[{"id":"erne.co","visited":0},{"id":"edition.cnn.com","visited":1},{"id":"www.lankasri.com","visited":1},{"id":"www.letudiant.fr","visited":1}],"links":[{"source":"edition.cnn.com","target":"erne.co","cookie":1},{"source":"www.lankasri.com","target":"erne.co","cookie":1},{"source":"www.letudiant.fr","target":"erne.co","cookie":1}]}

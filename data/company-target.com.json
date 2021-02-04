@@ -1,0 +1,1 @@
+{"nodes":[{"id":"company-target.com","visited":0},{"id":"www.csod.com","visited":1},{"id":"www.ups.com","visited":1}],"links":[{"source":"www.csod.com","target":"company-target.com","cookie":2},{"source":"www.ups.com","target":"company-target.com","cookie":2}]}

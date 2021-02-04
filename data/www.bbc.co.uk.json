@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.bbc.co.uk","visited":1},{"id":"bbc.com","visited":0,"icon":"icons/58.ico"}],"links":[{"source":"www.bbc.co.uk","target":"bbc.com","cookie":9}]}

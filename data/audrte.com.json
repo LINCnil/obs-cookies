@@ -1,0 +1,1 @@
+{"nodes":[{"id":"audrte.com","visited":0},{"id":"www.ivi.tv","visited":1},{"id":"www.laprovence.com","visited":1},{"id":"www.yvelines.fr","visited":1}],"links":[{"source":"www.ivi.tv","target":"audrte.com","cookie":2},{"source":"www.laprovence.com","target":"audrte.com","cookie":4},{"source":"www.yvelines.fr","target":"audrte.com","cookie":4}]}

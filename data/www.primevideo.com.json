@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.primevideo.com","visited":1},{"id":"amazon.com","visited":0,"icon":"icons/21.ico"},{"id":"amazon.fr","visited":0,"icon":"icons/2.ico"}],"links":[{"source":"www.primevideo.com","target":"amazon.com","cookie":9},{"source":"www.primevideo.com","target":"amazon.fr","cookie":5}]}

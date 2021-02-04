@@ -1,0 +1,1 @@
+{"nodes":[{"id":"nickel.eu","visited":1,"icon":"icons/131.ico"},{"id":"doubleclick.net","visited":0,"icon":"icons/69.ico"},{"id":"google.com","visited":0,"icon":"icons/0.ico"}],"links":[{"source":"nickel.eu","target":"doubleclick.net","cookie":3},{"source":"nickel.eu","target":"google.com","cookie":2}]}

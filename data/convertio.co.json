@@ -1,0 +1,1 @@
+{"nodes":[{"id":"convertio.co","visited":1,"icon":"icons/120.ico"},{"id":"doubleclick.net","visited":0,"icon":"icons/69.ico"},{"id":"google.com","visited":0,"icon":"icons/0.ico"}],"links":[{"source":"convertio.co","target":"doubleclick.net","cookie":3},{"source":"convertio.co","target":"google.com","cookie":2}]}

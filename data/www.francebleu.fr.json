@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.francebleu.fr","visited":1},{"id":"doubleclick.net","visited":0,"icon":"icons/69.ico"},{"id":"xiti.com","visited":0,"icon":"icons/89.ico"}],"links":[{"source":"www.francebleu.fr","target":"doubleclick.net","cookie":3},{"source":"www.francebleu.fr","target":"xiti.com","cookie":4}]}

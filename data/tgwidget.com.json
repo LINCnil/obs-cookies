@@ -1,0 +1,1 @@
+{"nodes":[{"id":"tgwidget.com","visited":0,"icon":"icons/250.ico"},{"id":"www.meteo60.fr","visited":1},{"id":"www.sfu-kras.ru","visited":1}],"links":[{"source":"www.meteo60.fr","target":"tgwidget.com","cookie":1},{"source":"www.sfu-kras.ru","target":"tgwidget.com","cookie":3}]}

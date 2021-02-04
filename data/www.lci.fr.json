@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.lci.fr","visited":1},{"id":"doubleclick.net","visited":0,"icon":"icons/69.ico"},{"id":"tf1.fr","visited":0}],"links":[{"source":"www.lci.fr","target":"doubleclick.net","cookie":3},{"source":"www.lci.fr","target":"tf1.fr","cookie":10}]}

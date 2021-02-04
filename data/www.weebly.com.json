@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.weebly.com","visited":1},{"id":"editmysite.com","visited":0},{"id":"google.com","visited":0,"icon":"icons/0.ico"}],"links":[{"source":"www.weebly.com","target":"editmysite.com","cookie":1},{"source":"www.weebly.com","target":"google.com","cookie":2}]}

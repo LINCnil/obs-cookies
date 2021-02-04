@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.sciencedirect.com","visited":1},{"id":"demdex.net","visited":0},{"id":"everesttech.net","visited":0},{"id":"nr-data.net","visited":0}],"links":[{"source":"www.sciencedirect.com","target":"demdex.net","cookie":2},{"source":"www.sciencedirect.com","target":"everesttech.net","cookie":2},{"source":"www.sciencedirect.com","target":"nr-data.net","cookie":1}]}

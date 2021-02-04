@@ -1,0 +1,1 @@
+{"nodes":[{"id":"springserve.com","visited":0},{"id":"mail.ru","visited":1,"icon":"icons/35.ico"},{"id":"raider.io","visited":1,"icon":"icons/126.ico"}],"links":[{"source":"mail.ru","target":"springserve.com","cookie":2},{"source":"raider.io","target":"springserve.com","cookie":2}]}

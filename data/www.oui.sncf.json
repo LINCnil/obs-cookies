@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.oui.sncf","visited":1},{"id":"facebook.com","visited":0,"icon":"icons/7.png"}],"links":[{"source":"www.oui.sncf","target":"facebook.com","cookie":1}]}

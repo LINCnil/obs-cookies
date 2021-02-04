@@ -1,0 +1,1 @@
+{"nodes":[{"id":"zebestof.com","visited":0},{"id":"www.cadremploi.fr","visited":1},{"id":"www.journaldunet.com","visited":1}],"links":[{"source":"www.cadremploi.fr","target":"zebestof.com","cookie":1},{"source":"www.journaldunet.com","target":"zebestof.com","cookie":1}]}

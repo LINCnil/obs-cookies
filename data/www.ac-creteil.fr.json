@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.ac-creteil.fr","visited":1},{"id":"doubleclick.net","visited":0,"icon":"icons/69.ico"},{"id":"education.gouv.fr","visited":0}],"links":[{"source":"www.ac-creteil.fr","target":"doubleclick.net","cookie":3},{"source":"www.ac-creteil.fr","target":"education.gouv.fr","cookie":4}]}

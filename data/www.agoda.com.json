@@ -1,0 +1,1 @@
+{"nodes":[{"id":"www.agoda.com","visited":1},{"id":"securedtouch.com","visited":0},{"id":"tiqcdn.com","visited":0}],"links":[{"source":"www.agoda.com","target":"securedtouch.com","cookie":1},{"source":"www.agoda.com","target":"tiqcdn.com","cookie":1}]}
